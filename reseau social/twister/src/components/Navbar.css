@@ -1,0 +1,41 @@
+.menu {
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+.list {
+    list-style-type: none;
+}
+
+.list button:hover {
+    list-style-type: none;
+    background-color: rgb(118, 190, 238);
+}
+
+.list button#btn_conn {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+.list button#btn_insc {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 00%;
+    border-bottom-right-radius: 00%;
+}
+
+.list button#btn_search {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 00%;
+    border-bottom-right-radius: 00%;
+}

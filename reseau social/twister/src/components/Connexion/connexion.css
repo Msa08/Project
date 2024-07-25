@@ -1,0 +1,183 @@
+.bodyconne {
+        background-color: white;
+}
+
+.section_connexion {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-image: url('../../images/ia.png');
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+.formulaire {
+        position: relative;
+        width: 400px;
+        height: 450px;
+        background-color: rgb(166, 166, 166);
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        backdrop-filter: blur(5px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+
+h2 {
+        font-size: 2em;
+        color: rgb(55, 110, 162);
+        text-align: center;
+}
+
+.inputs {
+        position: relative;
+        margin: 30px 0;
+        width: 310px;
+        border-bottom: 2px solid rgb(55, 110, 162);
+}
+
+.input-error {
+        position: relative;
+        margin: 30px 0;
+        width: 310px;
+        border-bottom: 2px solid red;
+}
+
+
+.inputs label {
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%);
+        color: rgb(57, 141, 220);
+        font-size: 1em;
+        pointer-events: none;
+        transition: .5s;
+}
+
+
+.input-error label {
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%);
+        color: rgb(220, 57, 57);
+        font-size: 1em;
+        pointer-events: none;
+        transition: .5s;
+}
+
+input:focus~label,
+input:valid~label {
+        top: -5px;
+}
+
+.inputs input {
+        width: 100%;
+        height: 50px;
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 1em;
+        padding: 0 35px 0 5px;
+        color: rgb(0, 0, 0);
+}
+
+.input-error input {
+        width: 100%;
+        height: 50px;
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 1em;
+        padding: 0 35px 0 5px;
+        color: rgb(0, 0, 0);
+}
+
+.forget {
+        margin: -15px 0 15px;
+        font-size: .9em;
+        color: rgb(55, 110, 162);
+        display: flex;
+        justify-content: space-between;
+}
+
+.forget label input {
+        margin-right: 3px;
+
+}
+
+.forget label a {
+        color: rgb(55, 110, 162);
+        text-decoration: none;
+}
+
+.forget label a:hover {
+        text-decoration: underline;
+}
+
+button {
+        width: 100%;
+        height: 40px;
+        border-radius: 40px;
+        background: rgb(55, 110, 162);
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: 600;
+}
+
+.register {
+        font-size: .9em;
+        color: rgb(55, 110, 162);
+        text-align: center;
+        margin: 25px 0 10px;
+}
+
+.register p a {
+        text-decoration: none;
+        color: rgb(55, 110, 162);
+        font-weight: 600;
+}
+
+.register p a:hover {
+        text-decoration: underline;
+}
+
+.footcon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(54, 126, 193);
+        padding: 10px;
+}
+
+.gauche,
+.milieu,
+.droite {
+        width: 33.33%;
+        text-align: center;
+}
+
+.milieu {
+        text-align: center;
+}
+
+.gauche span,
+.milieu span,
+.droite span {
+        font-size: 14px;
+        color: #333;
+}
+
+.error-msg {
+        color: red;
+        margin-bottom: 10px;
+}

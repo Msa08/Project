@@ -1,0 +1,67 @@
+.request-settings {
+    display: flex;
+    flex-basis: 20%;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.236);
+}
+
+.liste-request {
+    flex-basis: 80%;
+}
+
+.request-pannel {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+}
+
+.pdp-request {
+    flex-basis: 5%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.identifier-request {
+    flex-basis: 75%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    margin-left: 5px;
+}
+
+.btn-request {
+    flex-basis: 20%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.acceptBtn {
+    background-color: rgb(67, 160, 32);
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.deniedBtn {
+    background-color: rgba(248, 25, 25, 0.795);
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.pdp-request_ {
+    display: flex;
+    border-radius: 50%;
+    border: #1da0f2 solid 1px;
+    width: 70px;
+    height: 70px;
+}
+
+.title-request {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 100px;
+}

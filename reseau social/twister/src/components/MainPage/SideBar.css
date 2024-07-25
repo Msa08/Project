@@ -1,0 +1,101 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    width: auto;
+    padding: 15px;
+    background: transparent;
+    border-right: 1px solid #ffffff00;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar button {
+    margin-bottom: 10%;
+    padding: 12px;
+    border: none;
+    background-color: transparent;
+    color: #1c90d9;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.252);
+    position: sticky;
+    overflow: hidden;
+}
+
+.sidebar button:hover {
+    background-color: #e8f5fe;
+}
+
+.Sidebar-Icon {
+    margin-right: 10px;
+    color: rgb(23, 62, 98);
+}
+
+.item-sidebar {
+    flex-basis: 16.66%;
+}
+
+
+.iii {
+    opacity: 40%;
+    position: absolute;
+    /* définir la position absolue pour que l'icône soit positionnée par rapport à son élément parent */
+    top: 50%;
+    /* définir la position verticale de l'icône par rapport au haut de son élément parent */
+    left: 50%;
+    /* définir la position horizontale de l'icône par rapport à la gauche de son élément parent */
+    transform: translate(-50%, -50%);
+    /* déplacer l'icône de moitié de sa propre largeur et hauteur pour la centrer au milieu */
+}
+
+.iii:hover {
+    cursor: pointer;
+    opacity: 100%;
+    position: absolute;
+    /* définir la position absolue pour que l'icône soit positionnée par rapport à son élément parent */
+    top: 50%;
+    /* définir la position verticale de l'icône par rapport au haut de son élément parent */
+    left: 50%;
+    /* définir la position horizontale de l'icône par rapport à la gauche de son élément parent */
+    transform: translate(-50%, -50%);
+    /* déplacer l'icône de moitié de sa propre largeur et hauteur pour la centrer au milieu */
+}
+
+
+
+
+.avatar-container2 {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gaauche {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.i:hover {
+    cursor: pointer;
+    opacity: 100%;
+    position: absolute;
+}
+
+.i {
+    cursor: pointer;
+    opacity: 40%;
+    position: absolute;
+}

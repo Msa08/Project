@@ -1,0 +1,1 @@
+Ce repertoir va contenir l ensemble des photos prises par le robot
