@@ -1,0 +1,33 @@
+.search-bar-icon-freinds {
+    position: static;
+    margin-right: 5%;
+}
+
+.search-bar-freinds {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    width: 98%;
+    background-color: transparent;
+    border-radius: 99999px;
+    margin-top: 15px;
+    border: 1px solid black;
+}
+
+.search-input-freinds {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 3%;
+    border-radius: 9999px;
+}
+
+.search-button-freinds {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+}

@@ -1,0 +1,34 @@
+.saved-settings {
+    display: flex;
+    flex-basis: 20%;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.236);
+}
+
+.mdp-change {
+    display: flex;
+    flex-basis: 80%;
+    flex-direction: row;
+}
+
+.conteneur_mdp {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    align-items: center;
+}
+
+.conteneur_pswd {
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    flex-basis: 50%;
+    align-items: center;
+}
+
+
+
+.btn-confirm {
+    margin-top: 10px;
+}

@@ -1,0 +1,210 @@
+.div.maListe {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 0;
+}
+
+.fonctionnel {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 95%;
+}
+
+.twist-pdp {
+    flex-basis: 5%;
+}
+
+.tweet {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.252);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.tweet-img-comment {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tweet-content {
+    flex-basis: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.photo-de-tweet {
+    display: flex;
+    align-self: center;
+    max-width: 30vw;
+    max-height: 30vw;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.delete-button {
+    display: flex;
+    flex-basis: 5%;
+    justify-content: flex-end;
+}
+
+.tweet-username {
+    font-weight: bold;
+    font-size: large;
+}
+
+.tweet-message {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border-radius: 1ch;
+    margin-top: 5px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    text-align: justify;
+    padding-top: 1ch;
+    padding-bottom: 1ch;
+    white-space: pre-wrap;
+}
+
+.tweet-time {
+    color: gray;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.tweet-textarea {
+    padding: 0.5rem;
+    border-width: 0.5ch;
+    border-style: solid;
+    border-color: rgb(55, 110, 162);
+    font-size: 1.1rem;
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+    height: 100px;
+}
+
+
+.corps-tweet {
+    align-items: center;
+    margin-right: 6ch;
+}
+
+
+.icons-container {
+    display: flex;
+    align-items: center;
+}
+
+.like-button {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.like-button .fa-heart {
+    color: #ccc;
+}
+
+.like-button .fa-heart.liked {
+    color: red;
+}
+
+.retweet-button {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.retweet-button {
+    color: #ccc;
+}
+
+.retweet-button .retweeted {
+    color: rgb(78, 153, 207);
+}
+
+.retweet-count,
+.like-count,
+.archive-count {
+    margin-right: 10px;
+}
+
+.archive-button {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 5px;
+    color: #ccc;
+}
+
+.archive-btn {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 5px;
+    color: rgb(18, 94, 31);
+}
+
+
+.button-comment {
+    background-color: rgb(55, 110, 162);
+}
+
+.comment-box {
+    width: 100%;
+    min-height: 3ch;
+    max-height: 100ch;
+    border-color: rgb(55, 110, 162);
+    border-radius: 30px;
+    padding: 7px;
+    display: flex;
+    align-self: center;
+}
+
+.footmain-button {
+    margin: 2px
+}
+
+.delete-twist-pannel {
+    display: flex;
+}
+
+.disposition-btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.zone-txt {
+    flex-basis: 89.5%;
+}
+
+.idee {
+    flex-basis: 1.5%;
+}
+
+.img-comment {
+    flex-basis: 10%;
+}
+
+.btn-insertion {
+    margin: 1px;
+    border-radius: 40px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(78, 153, 207);
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    color: rgb(78, 153, 207);
+}
+
+
+.btn-insertion:hover {
+    background: #e8f5fe;
+}
